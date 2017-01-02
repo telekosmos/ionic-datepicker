@@ -30,7 +30,7 @@
 }
 
 .ionic_datepicker_popup .calendar_grid {
-  height: 215px;
+   height: 175px; // 215px;
 }
 
 .ionic_datepicker_popup .calendar_grid .weeks_row {
@@ -110,6 +110,7 @@
 
 .ionic_datepicker_popup .popup-body .show_nav {
   padding: 5px 0 0 0;
+  margin-top: 1px;
 }
 
 .ionic_datepicker_popup .popup-body .show_nav .prev_btn_section {
@@ -137,6 +138,8 @@
 .ionic_datepicker_popup .popup-buttons {
   padding: 0;
   min-height: 45px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 .ionic_datepicker_popup .popup-buttons button {
@@ -146,8 +149,13 @@
   color: $date-picker-light;
 }
 
+// first row
+.ionic_datepicker_popup .row {
+  margin-top: 1px;
+}
 .ionic_datepicker_popup .row + .row {
   padding: 0;
+
 }
 
 .ionic_datepicker_modal .header, .ionic_datepicker_modal .footer {
@@ -179,6 +187,7 @@
 
 .ionic_datepicker_modal .select_section {
   padding: 1px 5px;
+  margin-top: 1px;
 }
 
 .ionic_datepicker_modal .button-clear {
